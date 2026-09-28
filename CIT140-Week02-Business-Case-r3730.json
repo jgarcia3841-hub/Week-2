@@ -1,0 +1,129 @@
+{
+  "format": "command-nexus-weekly-report",
+  "schemaVersion": 1,
+  "courseId": "CIT140",
+  "week": 2,
+  "assignmentId": "CIT140-W02-BUSINESS-CASE",
+  "artifactType": "business-case-recommendation",
+  "caseId": "meridian-forge",
+  "reportId": "ecc009c5-5cab-43d9-b859-988727ab9c44",
+  "revision": 3730,
+  "createdAt": "2026-09-28T16:30:03.056Z",
+  "exportedAt": "2026-09-28T17:53:41.275Z",
+  "learnerLabel": "QA Cell Revamp",
+  "contentStatus": "complete-fields",
+  "sections": [
+    {
+      "id": "project",
+      "title": "Proposed project",
+      "value": "I think revising the plan and still gaining new information on who has access to commands to the robot to have a structuralized plan heading forward. "
+    },
+    {
+      "id": "need",
+      "title": "Business need",
+      "value": "Referring to S02 upgrading or finding a way to lower manual downtime and having a way that requests could not overlap with each other lowering the chances of slow downtime for staff retrieval requests."
+    },
+    {
+      "id": "value",
+      "title": "Expected value and beneficiaries",
+      "value": "The review would benefit the company making workflow to be less likely for something like this to happen again but also allowing the company to have a better structuralized and secure way of working. "
+    },
+    {
+      "id": "scopeIn",
+      "title": "Included work",
+      "value": "The current workflow as of right now is as follows; QA receives a request, a custodian gets that request and locates it, QA and engineering checks its origin and meaning, and operation receives a summary. The review includes gathering information about ownership permissions towards the affected cell and inventory the controls used for current and retired tests."
+    },
+    {
+      "id": "scopeOut",
+      "title": "Excluded work",
+      "value": "The excluded work contains not restarting or operating MR-17, changing software or schedules, delete or modifying original records, buying a replacement robot, selecting a vendor, and extending the view to the other cells."
+    },
+    {
+      "id": "technical",
+      "title": "Technical feasibility",
+      "value": "The tools can support it, while read-only exports is a different story, because staff hours are provisional and staff already have their duties so their availability needs confirming before hand."
+    },
+    {
+      "id": "operational",
+      "title": "Operational feasibility",
+      "value": "Having this included into the work makes it easier for things to be tracked so later on if another incident occurs it is properly and automatically logged for review."
+    },
+    {
+      "id": "resources",
+      "title": "Cost and resource feasibility",
+      "value": "The base estimation is $180 below the $3,000 envelope while the planning range is $525 assumed if the same staff mix and the base weighted rate of $58.75/hour."
+    },
+    {
+      "id": "schedule",
+      "title": "Schedule feasibility",
+      "value": "Since the duration of the purposed elapse plan takes up 8 days assuming that they start on day 3, all other duties remain in place allowing the workflow to continue."
+    },
+    {
+      "id": "constraints",
+      "title": "Known constraints",
+      "value": "The provision schedule as follows, analysts 24 hours across days 1-8, engineering 12 hours, no earlier than day 4; QA 8 hours during days 5–7; Operations 4 hours across days 1 and 8. All these hours require confirmation after authorization."
+    },
+    {
+      "id": "risks",
+      "title": "Risks and assumptions",
+      "value": "It is assumed that a shift in reassignment could remove the QA window, late exports could delay Engineering. Neither has occurred in this packet. These are risks that could happen but not established delays."
+    },
+    {
+      "id": "success",
+      "title": "Success measures and evidence",
+      "value": "Well in the long run it may save us money because the downtime of requests for the company will be significantly lower instead of the 10 minute per request time period."
+    },
+    {
+      "id": "recommendation",
+      "title": "Recommendation",
+      "value": "proceed"
+    },
+    {
+      "id": "rationale",
+      "title": "Rationale and conditions",
+      "value": "While the budget range may go above the $3,000 budget its benefitable for the company to have automatic logs that keep track of controls being used and the history as stated in S03. In S02 it states that it takes at least 10 minutes for one request to be received meaning so it means that these requests can be easily moderated saving time."
+    },
+    {
+      "id": "nextStep",
+      "title": "Next authorization or information step",
+      "value": "Operations should make the decision since they are the runs that know business and know most of the business's schedule allowing for a organized and established plan going forward. "
+    }
+  ],
+  "sources": [
+    {
+      "id": "W02-S01",
+      "title": "Request for a bounded review",
+      "locator": "Week 2 decision packet · W02-S01"
+    },
+    {
+      "id": "W02-S02",
+      "title": "Evidence-retrieval workload",
+      "locator": "Week 2 decision packet · W02-S02"
+    },
+    {
+      "id": "W02-S03",
+      "title": "Proposed scope and current workflow",
+      "locator": "Week 2 decision packet · W02-S03"
+    },
+    {
+      "id": "W02-S04",
+      "title": "Capacity, access and operating limits",
+      "locator": "Week 2 decision packet · W02-S04"
+    },
+    {
+      "id": "W02-S05",
+      "title": "Estimate and success-measure sheet",
+      "locator": "Week 2 decision packet · W02-S05"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "repository-check",
+      "filename": "Week02_Repository_Check.png",
+      "kind": "supporting-evidence",
+      "caption": "Required Week 2 repository screenshot; supply the actual file separately. This reference does not verify an upload.",
+      "sourceIds": []
+    }
+  ],
+  "relatedReportIds": []
+}
